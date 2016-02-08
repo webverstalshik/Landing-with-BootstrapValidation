@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Bootstrap 30 gut x 12 col</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.s0" />
+	<!--Путь к Фавиконке-->
+	<link rel="shortcut icon" href="favicon.png" />
+	<!--Стили Бутстрапа-->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">	
+	<link rel="stylesheet" href="bootstrap/validator/css/bootstrapValidator.css">
+
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css">		
+	<link rel="stylesheet" href="css/bg-screen.css">
+	<!--Основной CSS-->	
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />	
+</head>
+<body>	
+	<header class="header">
+		<div class="container">
+			<div class="_table">
+				<div class="header__logo">
+					<img class="img-responsive" src="img/tovar.png" alt="">
+				</div>
+				<div class="header__titles">
+					<h2>Название товара</h2>
+					<h4>-комментарий к товару</h4>
+				</div>
+				<div class="header__phones text-right">
+					<b class="red">Звоните сейчас !&nbsp;&nbsp;</b>
+					<p>MTS: 700-000-00-00</p>
+					<p>LIFE: 700-000-00-00</p>
+					<p>FENIX: 700-000-00-00</p>
+				</div>
+			</div>
+			</div>
+
+		<div class="navigation" id="stick_menu">      
+			<nav class="main-nav">
+				<ul>
+					<li><a href="#why">Почему выбирают</a></li>                 
+					<li><a href="#how">Как работает</a></li>                   
+					<li><a href="#tehnics">Технические характеристики</a></li>            
+					<li><a href="#delivery">Как мы работаем</a></li>                  
+					<li><a href="#garants">Гарантии</a></li>                   
+					<li><a href="#comments">Отзывы</a></li>
+				</ul>
+			</nav>
+			<a href="#" class="responsive-menu-open"><i class="fa fa-bars"></i></a>
+		</div>	
+		<div class="responsive-menu">
+			<a href="#" class="responsive-menu-close"><i class="fa fa-times"></i></a>
+			<nav class="responsive-nav"></nav> <!-- end .responsive-nav -->
+		</div> <!-- end .responsive-menu -->    
+
+	</header>
+
+	<section class="block-1">
+		<div id="content" class="my-slider">
+			<img src="images/img-slider-1.jpg">
+			<img src="images/img-slider-2.jpg">
+			<img src="images/img-slider-3.jpg">
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>Это именно тот товар который ты продаешь
+						<font class="red">работает 24 часа в сутки</font>
+						это просто незаменимая вещь !</h1>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="tovar"> <!-- задаем картинку товара -->
+							<img class="img-responsive"src="img/tovar.png" alt="">
+						</div>
+						<div class="count-form">  <!-- Форма  заказа сo счетчиком -->
+							<center>
+								<div class="count-form__title">Акционнная цена</div>				
+								<strike class="red">300руб</strike>
+								<span class="white">150руб</span>				
+								<p>действует только:</p>
+								<div id="countdown-1"></div>
+								<button class="count-form__button" data-toggle="modal" role="button" href="#orderModal">Оформить заявку</button><br>
+								<small>Ваши данные не передаются третьим лицам</small>		
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="block-2">
+		<a name="why"></a>
+			<div class="container">
+				<h2 class="text-center">ПОЧЕМУ ВЫБИРАЮТ<br>светодиодную лампу с аккумулятором YJ-1895L</h2>
+				<div class="row">
+					<div class="col-sm-4 col-xs-6">
+						<div class="block-2__tile">
+							<img class="img-responsive" src="img/boch1.png" alt="">
+							<p>Похвала номер 1</p>
+						</div>
+					</div>
+					<div class="col-sm-4 col-xs-6">
+						<div class="block-2__tile">
+							<img class="img-responsive" src="img/boch2.png" alt="">
+							<p>Похвала номер 2</p>
+						</div>
+					</div>
+					<div class="col-sm-4 col-xs-6">
+						<div class="block-2__tile">
+							<img class="img-responsive" src="img/boch3.png" alt="">
+							<p>Похвала номер 3</p>
+						</div>
+					</div>			
+					<div class="col-sm-4 col-xs-6">
+						<div class="block-2__tile">
+							<img class="img-responsive" src="img/boch4.png" alt="">
+							<p>Похвала номер 4</p>
+						</div>
+					</div>
+					<div class="col-sm-4 col-xs-6">
+						<div class="block-2__tile">
+							<img class="img-responsive" src="img/boch5.png" alt="">
+							<p>Похвала номер 5</p>
+						</div>
+					</div>
+					<div class="col-sm-4 col-xs-6">
+						<div class="block-2__tile">
+							<img class="img-responsive" src="img/boch6.png" alt="">
+							<p>Похвала номер 6</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="block-3">
+			<div class="container">
+				<h2 class="text-center">Чем больше товара, тем больше скидка</h2>
+				<div class="row">
+					<div class="col-sm-3 col-xs-6">
+						<div class="block-3__tile">
+							<div class="block-3__tile--lable">1 шт.</div>
+							<img class="img-responsive" src="img/tovar.png" alt="">
+							<p class="block-3__total-price">1 шт. - <span>149 руб</span></p>
+							<p class="block-3__item-price">Цена за 1 шт. - <span>149 руб</span></p>
+							<p class="block-3__economy">Ваша экономия - <span>0 руб</span>&nbsp;</p>
+
+							<button class="btn-small js-btn-b3" data-toggle="modal" role="button" href="#orderModal">Заказать</button>
+						</div>
+					</div>
+
+					<div class="col-sm-3 col-xs-6">
+						<div class="block-3__tile">
+							<div class="block-3__tile--lable">2 шт.</div>
+							<img class="img-responsive" src="img/tovar.png" alt="">
+							<p class="block-3__total-price">2 шт. - <span>290 руб</span></p>
+							<p class="block-3__item-price">Цена за 1 шт. - <span>145 руб</span></p>
+							<p class="block-3__economy">Ваша экономия - <span>8 руб</span>&nbsp;</p>
+
+							<button class="btn-small js-btn-b3" data-toggle="modal" role="button" href="#orderModal">Заказать</button>
+						</div>
+					</div>
+
+					<div class="col-sm-3 col-xs-6">
+						<div class="block-3__tile">
+							<div class="block-3__tile--lable">5 шт.</div>
+							<img class="img-responsive" src="img/tovar.png" alt="">
+							<p class="block-3__total-price">5 шт. - <span>695 руб</span></p>
+							<p class="block-3__item-price">Цена за 1 шт. - <span>139 руб</span></p>
+							<p class="block-3__economy">Ваша экономия - <span>50 руб</span>&nbsp;</p>
+
+							<button class="btn-small js-btn-b3" data-toggle="modal" role="button" href="#orderModal">Заказать</button>
+						</div>
+					</div>
+
+					<div class="col-sm-3 col-xs-6">
+						<div class="block-3__tile">
+							<div class="block-3__tile--lable">10 шт.</div>
+							<img class="img-responsive" src="img/tovar.png" alt="">
+							<p class="block-3__total-price">10 шт. - <span>1290 руб</span></p>
+							<p class="block-3__item-price">Цена за 1 шт. - <span>129 руб</span></p>
+							<p class="block-3__economy">Ваша экономия - <span>200 руб</span>&nbsp;</p>
+
+							<button class="btn-small js-btn-b3" data-toggle="modal" role="button" href="#orderModal">Заказать</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="block-4">
+		<a name="how"></a>
+			<div class="container">
+				<h2 class="text-center">Как именно работает ваш товар !</h2>
+				<div class="row">
+					<div class="col-sm-6">
+						<p>Светодиодная лампа YJ-1895L может выполнять функции переностного светильника и аварийного осветителя.Лампа оснащена 16-ю диодами мощностью 1,2 Вт каждый. Суммарная мощность 19,2 Вт что соответствует мощности в 75 Вт лампы накаливания.Светодиодная лампа заряжается от сети 220 вольт, для этого вкручивается как обычная лампочка в стандартный цоколь Е27.Корпус лампы изготовлен из ударопрочного пластика.На корпусе лампы находится переключатель, чтобы менять режимы работы: АС - лампа заряжается при наличии тока в сети, светится в аварийном режиме (только при отключении напряжения в сети 220В), то есть, когда исчезает ток в сети по любой причине, лампа сама начинает светиться. DC - работа в режиме фонаря.Энергосберегающая светодиодная лампа-фонарь YJ-1895L может использоваться как дежурное освещение или фонарь.</p>
+						<b>Чтобы не попадать в ситуации с отключением света в самый неподходящий момент,купите сейчас ПО АКЦИОННОЙ ЦЕНЕ светильник на аккумуляторе YJ-1895L, в который встроен малогабаритный аккумулятор.</b>&nbsp;
+						<button class="btn-big" data-toggle="modal" role="button" href="#orderModal">Заказать именно эту прикольную лампу!</button>
+					</div>
+
+					<div class="col-sm-6">
+						<img src="img/tovar.png" alt="" class="img-responsive">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="block-5 bg-one">		 
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<div class="tovar"> <!-- задаем картинку товара -->
+							<img class="img-responsive"src="img/tovar.png" alt="">
+						</div>
+						<div class="count-form">  <!-- Форма  заказа сo счетчиком -->
+							<center>
+								<div class="count-form__title">Акционнная цена</div>				
+								<strike class="red">300руб</strike>
+								<span class="white">150руб</span>				
+								<p>действует только:</p>
+								<div id="countdown-2"></div>
+							    <button class="count-form__button" data-toggle="modal" role="button" href="#orderModal">Оформить заявку</button><br>
+								<small>Ваши данные не передаются третьим лицам</small>		
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</section>
+
+		<section class="block-6">
+		<a name="tehnics"></a>
+			<div class="container">
+				<h2 class="text-center">Технические характеристики !</h2>
+				<div class="row">
+					<div class="col-sm-6">
+						<img src="img/tovar.png" alt="" class="img-responsive">
+					</div>
+
+					<div class="col-sm-6">
+						<p>Количество диодов - 16 шт<br>
+							Мощность LED диодов - 1,2 W<br>
+							Перезаряжаемая герметичная свинцово-кислотная мини-батарея, встроенная в корпус лампочки, 4V 1.0Ah<br>
+							Время работы от встроенной батареи - 6 часов<br>
+							Время зарядки - 15 часов<br>
+							Размер - 13 х 8 см Вес - 175г
+						</p>
+						<b>КОМПЛЕКТАЦИЯ:</b>&nbsp;
+						<p>1. Лампа Yajia YJ-1895L с аккумулятором<br>
+							2. Пульт дистанционного управления
+						</p>						
+					</div>
+				</div>
+				<button class="btn-big" data-toggle="modal" role="button" href="#orderModal">Заказать именно эту прикольную лампу!</button>
+			</div>
+		</section>
+
+
+		<section class="block-7">
+		<a name="delivery"></a>
+			<div class="container">
+				<h2 class="text-center">Условия доставки</h2>
+				<div class="row">
+					<div class="col-sm-3 col-xs-6">
+						<img src="img/rabotaem-1.png" alt="" class="img-responsive">
+						<p>Вы оставляете заявку на сайте</p>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<img src="img/rabotaem-2.png" alt="" class="img-responsive">
+						<p>Мы связываемся с вами, чтобы обсудить все детали</p>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<img src="img/rabotaem-3.png" alt="" class="img-responsive">
+						<p>Мы осуществляем доставку товара</p>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<img src="img/rabotaem-4.png" alt="" class="img-responsive">
+						<p>Вы оплачиваете доставленный товар наложным платежом</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="block-8">
+		<a name="garants"></a>
+			<div class="container">
+				<h2 class="text-center">Гарантии</h2>
+				<div class="row">
+					<div class="col-sm-6">
+						<img src="img/gar1.png" alt="" class="img-responsive">
+						<p>Мы гарантируем, что товар будет доставлен точно в срок (детали и сроки уточняются при оформлении заказа).</p>
+					</div>
+					<div class="col-sm-6">
+						<img src="img/gar2.png" alt="" class="img-responsive">
+						<p>Мы на 100% уверены в качестве нашего товара! В течение 14 дней вы имеете возможность вернуть товар, а мы вернем вам деньги.</p>
+					</div>
+				</div>
+				<button class="btn-big"  data-toggle="modal" role="button" href="#orderModal">Заказать прямо сейчас !</button>
+			</div>
+		</section>
+
+		<section class="block-9 bg-two">		
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<div class="tovar"> <!-- задаем картинку товара -->
+							<img class="img-responsive"src="img/tovar.png" alt="">
+						</div>
+						<div class="count-form">  <!-- Форма  заказа сo счетчиком -->
+							<center>
+								<div class="count-form__title">Акционнная цена</div>				
+								<strike class="red">300руб</strike>
+								<span class="white">150руб</span>				
+								<p>действует только:</p>
+								<div id="countdown-3"></div>
+								<button class="count-form__button" role="button" data-toggle="modal" href="#orderModal">Оформить заявку</button><br>
+								<small>Ваши данные не передаются третьим лицам</small>		
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</section>
+
+		<section class="block-10">
+		<a name="comments"></a>
+			<div class="container">
+				<h2 class="text-center">Отзывы</h2>            
+
+				<!-- Отзыв 1 -->
+				<div class="row">
+					<div class="col-xs-4 col-md-3 col-md-offset-1">
+						<img src="img/1.png" class="img-responsive" alt="">
+					</div>
+					<div class="col-xs-8 col-md-7">
+						<div class="block-10__comment">Я очень довольна своей покупкой!</div>
+						<p>Недавно я купила светодиодную аккумуляторную лампу. Теперь просто нарадоваться не могу. Я всегда уверена, что в моей квартире будет светло, даже при внезапном отключении электроэнергии. Но и просто пользоваться этой лампой мне нравится. Зажигается она быстро, без задержки, светит ровно, не давит на глаза. 
+						</p>
+						<em>Елена Новикова,Киев</em>
+					</div>
+				</div>
+
+				<!-- Отзыв 2 -->
+				<div class="row">				
+					<div class="col-xs-8 col-md-7 txt col-md-offset-1">
+						<div class="block-10__comment">Я очень довольна своей покупкой!</div>
+						<p>Недавно я купила светодиодную аккумуляторную лампу. Теперь просто нарадоваться не могу. Я всегда уверена, что в моей квартире будет светло, даже при внезапном отключении электроэнергии. Но и просто пользоваться этой лампой мне нравится. Зажигается она быстро, без задержки, светит ровно, не давит на глаза. 
+						</p>
+						<em>Елена Новикова,Киев</em>
+					</div>
+					<div class="col-xs-4 col-md-3">
+						<img src="img/2.png" class="img-responsive" alt="">
+					</div>
+				</div>
+
+				<!-- Отзыв 3 -->
+				<div class="row">
+					<div class="col-xs-4 col-md-3 col-md-offset-1">
+						<img src="img/1.png" class="img-responsive" alt="">
+					</div>
+					<div class="col-xs-8 col-md-7 txt">
+						<div class="block-10__comment">Я очень довольна своей покупкой!</div>
+						<p>Недавно я купила светодиодную аккумуляторную лампу. Теперь просто нарадоваться не могу. Я всегда уверена, что в моей квартире будет светло, даже при внезапном отключении электроэнергии. Но и просто пользоваться этой лампой мне нравится. Зажигается она быстро, без задержки, светит ровно, не давит на глаза. 
+						</p>
+						<em>Елена Новикова,Киев</em>
+					</div>
+				</div>
+
+				<!-- Отзыв 4 -->
+				<div class="row">				
+					<div class="col-xs-8 col-md-7 col-md-offset-1 txt">
+						<div class="block-10__comment">Я очень довольна своей покупкой!</div>
+						<p>Недавно я купила светодиодную аккумуляторную лампу. Теперь просто нарадоваться не могу. Я всегда уверена, что в моей квартире будет светло, даже при внезапном отключении электроэнергии. Но и просто пользоваться этой лампой мне нравится. Зажигается она быстро, без задержки, светит ровно, не давит на глаза. 
+						</p>
+						<em>Елена Новикова,Киев</em>				
+					</div>
+					<div class="col-xs-4 col-md-3">
+						<img src="img/2.png" class="img-responsive" alt="">
+					</div>
+				</div>
+
+				<!-- Отзыв 5 -->
+				<div class="row">
+					<div class="col-xs-4 col-md-3 col-md-offset-1">
+						<img src="img/1.png" class="img-responsive" alt="">
+					</div>
+					<div class="col-xs-8 col-md-7 txt">
+						<div class="block-10__comment">Я очень довольна своей покупкой!</div>
+						<p>Недавно я купила светодиодную аккумуляторную лампу. Теперь просто нарадоваться не могу. Я всегда уверена, что в моей квартире будет светло, даже при внезапном отключении электроэнергии. Но и просто пользоваться этой лампой мне нравится. Зажигается она быстро, без задержки, светит ровно, не давит на глаза. 
+						</p>
+						<em>Елена Новикова,Киев</em>
+					</div>
+				</div>
+				<button class="btn-big" data-toggle="modal" role="button" href="#orderModal">Заказать прямо сейчас !</button>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="_table">
+					<div class="footer__logo">
+						<img class="img-responsive" src="img/tovar.png" alt="">
+					</div>
+					<div class="footer__center">
+						Сюда тоже можно что то написать или вставить!
+					</div>
+					<div class="footer__phones text-right">
+						<b class="red">Звоните сейчас !&nbsp;&nbsp;</b>
+						<p>MTS: 700-000-00-00</p>
+						<p>LIFE: 700-000-00-00</p>
+						<p>FENIX: 700-000-00-00</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+        
+
+		<div class="modal fade" id="orderModal" role="dialog" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+			<center>
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body">
+							<button aria-hidden="true" class="close" data-dismiss="modal" type="button">&times;</button><br>
+
+							<form id="defaultForm" role="form" method="post" class="form-horizontal" action="">  				         
+                             
+                             <input id="describe" type="hidden"> 
+
+                             <p>Введите имя и номер мобильного телефона РФ:</p><br>
+
+								<div class="form-group">
+									<label for="name" class="col-sm-3 col-xs-12 control-label">
+									   <i class="fa fa-user"></i>
+									</label>
+
+									<div class="col-sm-6 col-xs-12">
+										<input type="text" class="form-control" name="username" placeholder="Ваше имя" id="name"/>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="phone" class="col-sm-3 col-xs-12 control-label">
+								    	<i class="fa fa-phone"></i>
+									</label>
+
+									<div class="col-sm-6 col-xs-12">
+										<input type="text" class="form-control" name="phoneNumber" placeholder="Ваш телефон" id="phone"/>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-12">								
+										<button type="submit" class="btn btn-small" id="form-submit">Отправить заявку</button>
+									</div>
+								</div>   
+
+							<div id="msgSuccess" class="text-center hidden">Заявка принята ! <br> В ближайшее время <br>наш менеджер вам перезвонит !</div>
+							<div id="msgError" class="text-center hidden">Упс ! Что то пошло не так ! <br>Сервер не отвечает !</div> 
+							</form>
+						
+						</div>
+					</div>
+				</div>
+			</center>
+		</div>
+
+
+		<!--  Подключаем необходимые Скрипты -->
+		<script src="libs/jquery/jquery-1.11.1.min.js"></script>			
+		<script src="js/jquery.onImagesLoad.min.js"></script>  <!-- //  работают в паре -->
+		<script src="js/jquery.responsiveSlides.js"></script>  <!-- //  работают в паре		 -->
+		<script src="libs/countdown/jquery.countdown.js"></script>	
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<script src="bootstrap/validator/js/bootstrapValidator.js"></script>
+		<script src="js/form.ajax.script.js"></script>
+		
+		<script src="js/common.js"></script>
+	</body>
+	</html>
